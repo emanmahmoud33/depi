@@ -1,0 +1,42 @@
+name: login_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^0.13.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: RobotoRegular
+      fonts:
+        - asset: fonts/Roboto/static/Roboto-Regular.ttf
+    - family: RobotoBold
+      fonts:
+        - asset: fonts/Roboto/static/Roboto-Bold.ttf
+    - family: RobotoLight
+      fonts:
+        - asset: fonts/Roboto/static/Roboto-Light.ttf
+    - family: RobotoMedium
+      fonts:
+        - asset: fonts/Roboto/static/Roboto-Medium.ttf
